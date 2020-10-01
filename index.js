@@ -73,7 +73,7 @@ const Spotify = (username, password, tgl_lahir, bln_lahir, thn_lahir, email) =>
   });
 
 (async () => {
-  let random = tanya.question(`Data Mau Random Semua? (y/n) `);
+  let random = tanya.question(`Data Mau Random Semua kah? (y/n) `);
   let custom_mail;
   let custom_pass;
   let custom_uname;
@@ -90,7 +90,7 @@ const Spotify = (username, password, tgl_lahir, bln_lahir, thn_lahir, email) =>
     custom_ttl = "n";
   }
   console.log("\n\n");
-  let jmlh = tanya.question("Berapa Account? ");
+  let jmlh = tanya.question("Berapa Akun? ");
   jmlh = parseInt(jmlh);
   for (let i = 1; i < jmlh + 1; i++) {
     let mail =
