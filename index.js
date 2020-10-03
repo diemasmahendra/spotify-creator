@@ -141,7 +141,7 @@ const Spotify = (username, password, tgl_lahir, bln_lahir, thn_lahir, email) =>
           );
         } else {
           console.log(
-            chalk.red(`Data Sudah Terdaftar, Silahkan Coba Data Lain`)
+            chalk.red(`Data Akun Sudah Terdaftar, Silahkan Coba Data Lain`)
           );
         }
       }
